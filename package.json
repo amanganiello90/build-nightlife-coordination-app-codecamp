@@ -1,0 +1,38 @@
+{
+  "name": "nightlife-coordination-app-codecamp",
+  "version": "1.0.0",
+  "description": "Nightlife App for FreeCodeCamp Backend Specialization",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanganiello90/nightlife-coordination-app-codecamp"
+  },
+  "bugs": "https://github.com/amanganiello90/nightlife-coordination-app-codecamp/issues",
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "full stack",
+    "Express",
+    "Node",
+    "javascript",
+    "boilerplate"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "amanganiello90",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "dotenv": "^1.2.0",
+    "express": "^4.12.4",
+    "express-session": "^1.11.3",
+    "mongoose": "^4.1.0",
+    "passport": "^0.3.0",
+    "passport-github": "^1.0.0"
+  },
+  "engines": {
+    "node": "0.10.25",
+    "npm": "3.3.10"
+  }
+}
